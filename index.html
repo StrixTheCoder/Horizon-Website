@@ -277,9 +277,13 @@
     <div class="orbiting"></div>
     <h1 class="typing" id="main-title">Horizon Mod Menu</h1>
     <p>The next generation of Gorilla Tag modding. Power, precision, and performance.</p>
-    <a href="https://discord.gg/RRaQAQWr"><button id="download-btn">Join Now!</button></a>
+    <a href="https://www.youtube.com/watch?v=xvFZjo5PgG0" target="_blank" rel="noopener noreferrer">
+      <button id="download-btn">Download</button>
+    </a>
     <br />
-    <a href="https://discord.gg/RRaQAQWr"><button id="discord-btn">Join our Discord</button></a>
+    <a href="https://discord.gg/RRaQAQWr" target="_blank" rel="noopener noreferrer">
+      <button id="discord-btn">Join our Discord</button>
+    </a>
   </header>
   <main>
     <section id="features">
@@ -287,75 +291,41 @@
       <div class="features-grid">
         <div class="feature-card">
           <h3>Easy to Use</h3>
-          <p>Simple interface with powerful features designed for all skill levels.</p>
+          <p>Simple interface with powerful capabilities designed for all players.</p>
         </div>
         <div class="feature-card">
-          <h3>Fast and Lightweight</h3>
-          <p>Optimized for smooth gameplay without performance drops.</p>
+          <h3>Safe & Secure</h3>
+          <p>Advanced anti-ban systems to keep your account protected.</p>
         </div>
         <div class="feature-card">
-          <h3>Safe to Use</h3>
-          <p>Advanced anti-ban systems and detection prevention.</p>
+          <h3>Constant Updates</h3>
+          <p>We keep Horizon ahead with regular feature and security updates.</p>
         </div>
         <div class="feature-card">
-          <h3>Regular Updates</h3>
-          <p>Continuous improvements and new features added frequently.</p>
+          <h3>Community Driven</h3>
+          <p>Join a thriving community and share your ideas and feedback.</p>
         </div>
       </div>
     </section>
-    <section id="reviews">
-      <h2>What Users Say</h2>
-      <div class="reviews-container" aria-label="User reviews">
-        <div class="reviews-slider" aria-live="polite">
-          <div class="review-box" tabindex="0">
-            <h4>Cheemz
-            </h4>
-            <p>"Horizon completely changed my Gorilla Tag experience. Highly recommended!"</p>
-          </div>
-          <div class="review-box" tabindex="0">
-            <h4>ShibaGT</h4>
-            <p>"Pretty Cool Menu Made By My Firend!"</p>
-          </div>
-          <div class="review-box" tabindex="0">
-            <h4>Benfica</h4>
-            <p>"Sigma Menu And Actually Is Released Unlike Vivid!"</p>
-          </div>
-          <div class="review-box" tabindex="0">
-            <h4>TechFor1</h4>
-            <p>"Amazing Menu With Some Good Comp Mods And Much More!"</p>
-          </div>
-          <div class="review-box" tabindex="0">
-            <h4>Menker
-            <p>"Best mod menu on the market, hands down."</p>
-          </div>
-          <div class="review-box" tabindex="0">
-            <h4>ShibaGT</h4>
-            <p>"Pretty Cool Menu Made By My Firend!"</p>
-          </div>
-          <div class="review-box" tabindex="0">
-            <h4>Benfica</h4>
-            <p>"Sigma Menu And Actually Is Released Unlike Vivid!"</p>
-          </div>
-          <div class="review-box" tabindex="0">
-            <h4>TechFor1</h4>
-            <p>"Amazing Menu With Some Good Comp Mods And Much More!"</p>
-          </div>
-          <div class="review-box" tabindex="0">
-            <h4>Menker</h4>
-            <p>"Best mod menu on the market, hands down."</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <script>
-    window.addEventListener("load", () => {
-      document.getElementById("loader").style.display = "none";
-    });
-    setTimeout(() => {
-      const title = document.getElementById("main-title");
-      title.style.borderRight = "none";
-    }, 4000);
-  </script>
+   <div class="review-box" tabindex="0"> 
+   <h4>Cheemz </h4> <p>"Horizon completely changed my Gorilla Tag experience. Highly recommended!"
+   </p> 
+   </div> 
+  <div class="review-box" tabindex="0"> <h4>ShibaGT</h4> <p>"Pretty Cool Menu Made By My Firend!"
+  </p> 
+  </div> 
+  <div class="review-box" tabindex="0"> 
+  <h4>Benfica</h4>
+  <p>"Sigma Menu And Actually Is Released Unlike Vivid!"</p>
+  </div> 
+  <div class="review-box" tabindex="0"> <h4>TechFor1</h4> <p>"Amazing Menu With Some Good Comp Mods And Much More!"</p> </div> <div class="review-box" tabindex="0"> <h4>Menker <p>"Best mod menu on the market, hands down."</p> </div> <div class="review-box" tabindex="0"> <h4>ShibaGT</h4> <p>"Pretty Cool Menu Made By My Firend!"</p> </div> <div class="review-box" tabindex="0"> <h4>Benfica</h4> <p>"Sigma Menu And Actually Is Released Unlike Vivid!"</p> </div> <div class="review-box" tabindex="0"> <h4>TechFor1</h4> <p>"Amazing Menu With Some Good Comp Mods And Much More!"</p> </div> <div class="review-box" tabindex="0"> <h4>Menker</h4> <p>"Best mod menu on the market, hands down."</p> </div> </div> </div> </section> </main>
+  window.addEventListener('load', () => {
+    document.getElementById('loader').style.display = 'none';
+  });
+  const title = document.getElementById('main-title');
+  title.addEventListener('animationend', () => {
+    title.style.borderRight = 'none';
+  });
+</script>
 </body>
 </html>
