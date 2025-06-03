@@ -21,12 +21,12 @@ const CTA: React.FC = () => {
               >
                 <h2 className="text-3xl md:text-4xl font-bold mb-6">
                   <span className="bg-gradient-to-r from-primary-500 via-secondary-500 to-accent-500 bg-clip-text text-transparent">
-                    Ready to Dominate Your Games?
+                    Ready to Dominate Gorilla Tag?
                   </span>
                 </h2>
                 
                 <p className="text-gray-300 text-lg mb-8">
-                  Join thousands of satisfied gamers and take your gameplay to the next level with Horizon's cutting-edge features.
+                  Join the community of satisfied gamers and take your gameplay to the next level with Horizon's cutting-edge features.
                 </p>
                 
                 <div className="space-y-4 mb-8">
@@ -45,8 +45,8 @@ const CTA: React.FC = () => {
                       <Zap className="h-5 w-5 text-primary-400" />
                     </div>
                     <div>
-                      <h4 className="font-semibold mb-1">Instant Access</h4>
-                      <p className="text-gray-400">Get up and running in minutes with our easy setup.</p>
+                      <h4 className="font-semibold mb-1">Fast & Reliable</h4>
+                      <p className="text-gray-400">Get up and running with favoritegorilla tag menu.</p>
                     </div>
                   </div>
                 </div>
@@ -70,14 +70,14 @@ const CTA: React.FC = () => {
                     className="w-full h-auto rounded-t-xl"
                   />
                   <div className="p-6">
-                    <h3 className="text-xl font-semibold mb-2">24/7 Premium Support</h3>
+                    <h3 className="text-xl font-semibold mb-2">24/7 Support</h3>
                     <p className="text-gray-400 mb-4">
-                      Our dedicated team is available around the clock to help with any issues or questions.
+                      Our dedicated team is available around the clock to help with any issues or questions via discord.
                     </p>
                     <div className="flex justify-between items-center">
                       <span className="text-primary-400 font-medium">Discord Community</span>
                       <span className="bg-primary-900/50 text-primary-400 text-sm px-3 py-1 rounded-full">
-                        10,000+ members
+                        100+ members
                       </span>
                     </div>
                   </div>
